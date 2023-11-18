@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-box {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+.app-rectangle {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+    justify-content: start; /* Aligns items to the start of the container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.app-rectangle:hover {
+    transform: scale(1.05);
+}
+
+.app-rectangle a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Optional: Removes underline from links */
+    color: inherit; /* Optional: Inherits text color from parent */
+    width: 100%;
+}
+
+.app-image {
+    flex-basis: 40%; /* Adjusts the width of the image container */
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: 10vw;
+    object-fit: cover; /* Optional based on your preference */
+}
+
+.app-description {
+    flex-basis: 60%; /* Adjusts the width of the description container */
+    padding-left: 10px; /* Adds some space between the image and the description */
+    margin-top: 10px;
+}
+
+
+
