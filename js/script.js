@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const apps = [
-        { name: "Bone Age App", image: "img/app-1.jpg", link: "https://ba6b-2804-14c-110-98c0-1942-158-7d73-ddea.ngrok-free.app/" },
+        { name: "Bone Age App", image: "img/app-1.jpg", link: "https://ce69-2804-14c-110-98c0-f957-acd0-88b7-6db.ngrok-free.app/" },
         { name: "CT Abdomen Fat Segmentation", image: "img/app-2.jpg", link: "http://www.bb.com.br" },
         { name: "CT Chest GGO Quantification", image: "img/app-3.jpg", link: "http://www.santander.com.br" },
         // Add more apps here
