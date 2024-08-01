@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const url = "https://fe29-2804-14c-110-98c0-686b-9235-6308-9b5a.ngrok-free.app/"
     const apps = [
-        { name: "Bone Age App", image: "img/app-1.jpg", link: "https://67e5-186-204-63-228.ngrok-free.app/" },
-        { name: "CT Abdomen Fat Segmentation", image: "img/app-2.jpg", link: "https://67e5-186-204-63-228.ngrok-free.app/" },
-        { name: "CT Chest GGO Quantification", image: "img/app-3.jpg", link: "https://67e5-186-204-63-228.ngrok-free.app/" },
+        { name: "Bone Age App", image: "img/app-1.jpg", link: url },
+        { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
+        { name: "CT Chest GGO Quantification (disabled)", image: "img/app-3.jpg", link: url },
         // Add more apps here
     ];
 
