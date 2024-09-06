@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const url = "https://cb8c-2804-14c-110-98c0-5d69-feb6-74ae-cda.ngrok-free.app"
+    const url = "https://31d7-2804-14c-110-98c0-d4c-22fc-5d61-7477.ngrok-free.app"
     const apps = [
         { name: "Bone Age App", image: "img/app-1.jpg", link: url },
         { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
