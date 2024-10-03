@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const url = "https://31d7-2804-14c-110-98c0-d4c-22fc-5d61-7477.ngrok-free.app"
     const apps = [
         { name: "Bone Age App", image: "img/app-1.jpg", link: url },
+        { name: "Chest X-ray Report Generator (demo)", image: "img/app-4.jpg", link: "https://huggingface.co/spaces/eduardofarina/MultimodalCXray" },
         { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
         { name: "CT Chest GGO Quantification (disabled)", image: "img/app-3.jpg", link: url },
         // Add more apps here
