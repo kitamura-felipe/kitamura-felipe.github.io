@@ -1,11 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     const url = "https://f1fb-186-204-63-228.ngrok-free.app";
     const apps = [
-        { name: "Bone Age App", image: "img/app-1.jpg", link: url },
+        { name: "Bone Age Report Generator (Portuguese)", image: "img/app-1.jpg", link: url },
         { name: "Chest X-ray Report Generator (demo)", image: "img/app-4.jpg", link: "https://huggingface.co/spaces/eduardofarina/MultimodalCXray" },
+        { name: "Screening Mammography - Cancer and Density (Ian Pan)", image: "img/app-6.jpg", link: "https://huggingface.co/spaces/ianpan/screening-mammography" },
+        { name: "Bone Age with Heatmap (Ian Pan)", image: "img/app-1.jpg", link: "https://huggingface.co/spaces/ianpan/bone-age-greulich-and-pyle" },
+        { name: "Chest X-ray (CXR) Pneumonia/Pneumothorax/Age/Sex/View/CTR (Ian Pan)", image: "img/app-5.jpg", link: "https://huggingface.co/spaces/ianpan/chest-x-ray-ai" },
+        // { name: "", image: "img/app-.jpg", link: url },
         { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
         { name: "CT Chest GGO Quantification (disabled)", image: "img/app-3.jpg", link: url },
         // Add more apps here
+        // { name: "", image: "img/app-.jpg", link: url },
     ];
 
     const appContainer = document.getElementById('app-container');
