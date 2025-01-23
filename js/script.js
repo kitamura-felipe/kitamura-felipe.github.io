@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Bone Age with Heatmap (Ian Pan)", image: "img/app-1.jpg", link: "https://huggingface.co/spaces/ianpan/bone-age-greulich-and-pyle" },
         { name: "Chest X-ray (CXR) Pneumonia/Pneumothorax/Age/Sex/View/CTR (Ian Pan)", image: "img/app-5.jpg", link: "https://huggingface.co/spaces/ianpan/chest-x-ray-ai" },
         // { name: "", image: "img/app-.jpg", link: url },
+        { name: "Total Segmentator", image: "img/app-7.jpg", link: "https://totalsegmentator.com/" },
+        
         { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
         { name: "CT Chest GGO Quantification (disabled)", image: "img/app-3.jpg", link: url },
         // Add more apps here
