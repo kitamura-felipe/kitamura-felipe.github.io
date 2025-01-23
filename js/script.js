@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "Chest X-ray (CXR) Pneumonia/Pneumothorax/Age/Sex/View/CTR (Ian Pan)", image: "img/app-5.jpg", link: "https://huggingface.co/spaces/ianpan/chest-x-ray-ai" },
         // { name: "", image: "img/app-.jpg", link: url },
         { name: "Total Segmentator", image: "img/app-7.jpg", link: "https://totalsegmentator.com/" },
-        
+        { name: "Facial De-identification on CT Head", image: "img/app-8.jpg", link: "https://huggingface.co/spaces/felipekitamura/face_deid_ct" },
+        // { name: "", image: "img/app-.jpg", link: url },
+        // { name: "", image: "img/app-.jpg", link: url },
+        // { name: "", image: "img/app-.jpg", link: url },
         { name: "CT Abdomen Fat Segmentation (disabled)", image: "img/app-2.jpg", link: url },
         { name: "CT Chest GGO Quantification (disabled)", image: "img/app-3.jpg", link: url },
         // Add more apps here
