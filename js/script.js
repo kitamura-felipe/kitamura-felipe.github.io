@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const url = "";
+    const url = "https://1793-2804-14c-110-97bd-42c-8564-ea96-1312.ngrok-free.app";
     const apps = [
         { name: "Bone Age Report Generator (Portuguese)", image: "img/app-1.jpg", link: url },
         { name: "Chest X-ray Report Generator (demo)", image: "img/app-4.jpg", link: "https://huggingface.co/spaces/eduardofarina/MultimodalCXray" },
